@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+	<script src="wordlist.js" defer></script>	
+	<script src="hangman.js" defer></script>
+	<link rel="stylesheet" href="hangstyle.css">
+
+	
+	</head>
+<body>
+	<div id="title">
+		<h1>Hangman</h1>
+		<img id="hang" src="assets/6.png">
+	</div>
+		<div id="resdiv">
+			<br>
+			<span id="result"></span>
+			<br>
+		</div>
+	<table id="board"></table>
+	<div id="keyboard">
+		<h2>Select a letter</h2>
+		<button id="A" onClick="findSecretWord(this)" class="game">A</button>
+		<button id="B" onClick="findSecretWord(this)" class="game">B</button>
+		<button id="C" onClick="findSecretWord(this)" class="game">C</button>
+		<button id="D" onClick="findSecretWord(this)" class="game">D</button>
+		<button id="E" onClick="findSecretWord(this)" class="game">E</button>
+		<button id="F" onClick="findSecretWord(this)" class="game">F</button>
+		<button id="G" onClick="findSecretWord(this)" class="game">G</button>
+		<button id="H" onClick="findSecretWord(this)" class="game">H</button>
+		<button id="I" onClick="findSecretWord(this)" class="game">I</button>
+		<button id="J" onClick="findSecretWord(this)" class="game">J</button>
+		<button id="K" onClick="findSecretWord(this)" class="game">K</button>
+		<button id="L" onClick="findSecretWord(this)" class="game">L</button>
+		<button id="M" onClick="findSecretWord(this)" class="game">M</button>
+		<button id="N" onClick="findSecretWord(this)" class="game">N</button>
+		<button id="O" onClick="findSecretWord(this)" class="game">O</button>
+		<button id="P" onClick="findSecretWord(this)" class="game">P</button>
+		<button id="Q" onClick="findSecretWord(this)" class="game">Q</button>
+		<button id="R" onClick="findSecretWord(this)" class="game">R</button>
+		<button id="S" onClick="findSecretWord(this)" class="game">S</button>
+		<button id="T" onClick="findSecretWord(this)" class="game">T</button>
+		<button id="U" onClick="findSecretWord(this)" class="game">U</button>
+		<button id="V" onClick="findSecretWord(this)" class="game">V</button>
+		<button id="W" onClick="findSecretWord(this)" class="game">W</button>
+		<button id="X" onClick="findSecretWord(this)" class="game">X</button>
+		<button id="Y" onClick="findSecretWord(this)" class="game">Y</button>
+		<button id="Z" onClick="findSecretWord(this)" class="game">Z</button>
+	</div>
+	<div id="data">
+		<br>
+		<span id="text">Lives Remaining: </span><span id="lives">6</span>
+		<br>
+		<br>
+<!-- The reload() method does the same as the reload button in your browser -->
+		<span id="button"><button onClick="location.reload()" class="restart">Restart</button></span>
+	</div>
+</body>
+</html>
+
+<!--index
+documen.createelement-->
